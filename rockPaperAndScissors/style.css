@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container{
+    background: seagreen;
+    color: #000;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 3rem;
+    padding: 3rem;
+}
+button{
+    padding: 3px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}

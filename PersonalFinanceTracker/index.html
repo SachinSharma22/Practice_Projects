@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="balance">
+            <p class="your-blance">Your Balance</p>
+            <p id="balance-amount">$350.00</p>
+        </div>
+
+        <div class="income-expenses">
+            <div id="income-data">
+                <p class="income-text">Income</p>
+                <div class="amount-logo">
+                    <p id="income-amount">$1000.00</p>
+                <i class='bx bx-add-to-queue' id="add-logo"></i>
+                </div>
+            </div>
+            <div id="expenses-data">
+                <p class="expenses-text">Expenses</p>
+                <p id="expenses-amount">$650.00</p>
+            </div>
+        </div>
+
+        <!-- Add transaction data -->
+
+        <div class="add-transaction-container">
+            <h2>Add Transaction</h2>
+           <div class="description-section">
+            <label for="description-text">Description</label>
+            <input type="text" id="description-text" placeholder="Enter description">
+           </div>
+           <div class="amount-section">
+            <label for="amount">Amount <span>(negative - expense, positive - income)</span></label>
+            <input type="number" id="amount" placeholder="Enter amount">
+           </div>
+
+           <button id="transaction-btn">Add Transaction</button>
+        </div>
+
+        <!-- Show your expenses -->
+        <div class="transaction-history-container">
+            <h3>Your Expenses</h3>
+            <div class="history-data">
+                <div class="span1">
+                    <span>Date</span>
+                    <ul id="expenses-list1">
+                    </ul>
+                </div>
+                <div class="span2">
+                    <span>Description</span>
+                    <ul id="expenses-list2">
+                    </ul>
+                </div>
+                <div class="span3">
+                    <span>Amount</span>
+                    <ul id="expenses-list3">
+                    </ul>
+                </div>
+
+                <div class="span4">
+                    <span>Action</span>
+                    <ul id="expenses-list4">
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Transaction history section -->
+
+        <div class="transaction-history-container">
+            <h3>Transaction History</h3>
+            <div class="history-data">
+                <div class="span1">
+                    <span>Date</span>
+                    <ul id="list1">
+                    </ul>
+                </div>
+                <div class="span2">
+                    <span>Description</span>
+                    <ul id="list2">
+                    </ul>
+                </div>
+                <div class="span3">
+                    <span>Amount</span>
+                    <ul id="list3">
+                    </ul>
+                </div>
+
+                <div class="span4">
+                    <span>Action</span>
+                    <ul id="list4">
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
