@@ -2,7 +2,19 @@
 
 ----
 
-**Image Describer**
-**Personal Finance Tracker**
-**Rock Paper Scissors**
-**Hello World (Tailwind Responsive) **
+## Projects
+
+1. Image Describer
+2. Personal Finance Tracker
+3. Rock Paper Scissors
+4. Hello World (Tailwind Responsive) 
+
+---
+
+## 🛠️ Tech Stack
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- MongoDB
